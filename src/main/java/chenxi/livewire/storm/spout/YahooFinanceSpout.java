@@ -5,8 +5,9 @@ import backtype.storm.task.TopologyContext;
 import backtype.storm.topology.OutputFieldsDeclarer;
 import backtype.storm.topology.base.BaseRichSpout;
 import backtype.storm.tuple.Fields;
-import yahoofinance.Stock;
-import yahoofinance.YahooFinance;
+import chenxi.livewire.yahoo.Stock;
+import chenxi.livewire.yahoo.YahooFinance;
+
 
 import java.io.IOException;
 import java.math.BigDecimal;
